@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TikTok Downloader (debug)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "preLaunchTask": "Cobalt USB tunnel",
+      "toolArgs": [
+        "--dart-define=COBALT_API_URL=http://127.0.0.1:9000"
+      ]
+    },
+    {
+      "name": "TikTok Downloader (profile)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    }
+  ]
+}

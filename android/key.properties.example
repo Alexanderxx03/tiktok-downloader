@@ -1,0 +1,6 @@
+# Template for Android release signing credentials
+# Rename to key.properties and configure your upload keystore
+storePassword=tu_store_password
+keyPassword=tu_key_password
+keyAlias=tu_key_alias
+storeFile=/ruta/hacia/tu/upload-keystore.jks
